@@ -23,54 +23,45 @@
                 
                 <p>You know what you want</p>
             </div>
-            <div class="main_form">
-                <p>Let's do it!</p>
-                <form action = "#"  method = "get" class = "form-example">
-                <div class = "name">
-                    <div class = "first_name form-example ">
-                        <label for="first-name">First name:</label>
-                        <input type = "text" id  = "first-name" name ="first" required>
-                    </div>
-                    <div class = "last_name">
-                        <div class = "last_ form-example ">
-                            <label for="last-name">Last Name:</label>
-                            <input type = "text" id  = "last-name" name ="last" required>
+            <form id ="form-example" action = "#" method = "get">
+                <div class ="main_form">
+                    <div class ="details">
+                        <div class = "small">
+                        <label for="first_name">First Name</label>
+                        <input type = "text" id ="first_name" name = "first_name" required>
+                        </div>
+                        <div class = "small">
+                        <label for="last_name">Last_name</label>
+                        <input type = "text" id ="last-name" name = "last_name" required>
                         </div>
                     </div>
-                    
-                </div>
-                <div class = "details">
-                    <div class = "email_details form-example ">
-                        <label for="email">Email:</label>
-                        <input type = "email" id  = "email" name ="email" required >
-                    </div>
-                
-                        <div class = "phone_details form-example ">
-                            <label for="phone">Phone Number:</label>
-                            <input type = "number" id  = "phone" name ="phone_no" required >
+                    <div class ="details">
+                        <div class = "small">
+                        <label for="email">Email</label>
+                        <input type = "email" id ="email" name = "email" required>
+                        </div>
+                        <div class = "small">
+                        <label for="Phone">Phone</label>
+                        <input type = "number" id ="Phone" name = "mobile" required>
                         </div>
                     </div>
-                    <div class = "sensitives">
-                        <div class = "password_first form-example ">
-                            <label for="password">Password:</label>
-                            <input type = "password" id  = "password" name ="pass" required >
+                    <div class ="details">
+                        <div class = "small">
+                        <label for="password">Password</label>
+                        <input type = "password" id ="password" name = "pass" required>
                         </div>
-                    
-                            <div class = "password_second form-example ">
-                                <label for="pass2">Confirm Password:</label>
-                                <input type = "password" id  = "pass2" name ="pass2" required>
-                            </div>
-                        </div>
+                        <div class = "small">
+                        <label for="password2">Confirm Password</label>
+                        <input type = "password" id ="password2" name = "pass2" required>
+                    </div>
+                    </div>
+
                 </div>
-                
-                <div class = "submit_section">
-                    <button type = "submit" class = "button-3">Create Account</button> 
-                    <p id="cust">Already have an account? <a href = "index.html">Log in</a></p>
-                </form>
+                <div class="submit_section">
+                    <button type = "submit" class = "button-3">Create account</button>
+                    <p>Already have an account? <a href = "index.html">Log in</a></p>
                 </div>
-                </div>
-                
-            </div>
+            </form>
             
         </div>
         
