@@ -153,8 +153,8 @@ input{
 .submit_section{
     flex-grow: 1;
     flex-shrink:1;
-    padding:var(--padding_subs);
-    padding-top:12px;
+    padding-top:3rem;
+    padding-left:2rem;
 }
 .submit_section>p{
     font-size: 24px;
